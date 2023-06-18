@@ -1,0 +1,77 @@
+/* INPUT BARANG */
+
+.form-input_barang {
+  margin: 50px 50px 50px 50px;
+  padding: 0px 50px;
+  height: 100%;
+}
+
+.input-barang {
+  margin-top: 20px;
+}
+
+.nama-barang input {
+  width: 200px;
+}
+
+.volume-barang input {
+  width: 100px;
+}
+
+.satuan-barang input {
+  width: 80px;
+}
+
+.harga-barang input {
+  width: 200px;
+}
+
+.jumlah-harga p {
+  color: #929292;
+}
+
+.jumlah-harga span {
+  min-width: 150px;
+  border: 0 0 1px 0 solid black;
+}
+
+.btn-submit-proyek {
+  position: absolute;
+  background-color: #092e65;
+  color: white;
+  margin-top: -50px;
+  right: 135px;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+.btn-submit-proyek:hover {
+  background-color: #0177e5;
+}
+
+/* END INPUT BARANG */
+
+/* STYLE TABLE */
+.table-container {
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  /* border: 1px solid black; */
+}
+
+th,
+td {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* END STYLE TABLE */

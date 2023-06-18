@@ -1,0 +1,19 @@
+.container-dashboard {
+  height: 100vh;
+}
+
+.navigation {
+  position: fixed;
+  width: 250px;
+  height: 100%;
+}
+
+.body-section {
+  position: absolute;
+  /* background-color: #f8fbff; */
+  left: 250px;
+  background-color: #f6f8fa;
+  height: 100%;
+  width: 1030px;
+  padding: 20px 25px;
+}

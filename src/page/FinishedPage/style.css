@@ -1,0 +1,16 @@
+.navbar-body {
+  display: flex;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid black;
+}
+
+.title-navbar {
+  /* position: fixed; */
+}
+
+.search-bar {
+  margin-left: 360px;
+  max-width: 300px;
+  border-radius: 10px;
+}

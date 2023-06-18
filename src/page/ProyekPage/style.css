@@ -1,0 +1,17 @@
+.navbar-body {
+  display: flex;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid black;
+}
+
+.title-navbar {
+  /* position: absolute; */
+  min-width: 300px;
+}
+
+.search-bar {
+  margin-left: 290px;
+  max-width: 300px;
+  border-radius: 10px;
+}

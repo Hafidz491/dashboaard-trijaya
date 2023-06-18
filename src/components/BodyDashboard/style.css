@@ -1,0 +1,40 @@
+.container-body_section {
+  margin-top: 50px;
+}
+
+.add-proyek {
+  position: absolute;
+  width: 400px;
+  height: 80px;
+  padding: 15px 20px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.add-proyek h4 {
+  font-size: 20px;
+}
+
+.add-proyek p {
+  margin-top: -7px;
+  font-size: 12px;
+}
+
+.btn-add-proyek {
+  position: absolute;
+  top: 20px;
+  left: 285px;
+}
+
+.btn-add-proyek a {
+  text-decoration: none;
+  color: white;
+}
+
+.section-bar_chart {
+  position: absolute;
+  height: 250px;
+  width: 500px;
+  left: 450px;
+}
