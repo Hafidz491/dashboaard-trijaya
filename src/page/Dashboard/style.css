@@ -2,18 +2,27 @@
   height: 100vh;
 }
 
-.navigation {
+.main {
+  margin-left: 250px;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  background-color: #f6f8fa;
+  padding: 20px 25px;
+}
+
+/* .navigation {
   position: fixed;
   width: 250px;
   height: 100%;
-}
+} */
 
-.body-section {
+/* .body-section {
   position: absolute;
-  /* background-color: #f8fbff; */
+  background-color: #f8fbff;
   left: 250px;
   background-color: #f6f8fa;
   height: 100%;
   width: 1030px;
   padding: 20px 25px;
-}
+} */

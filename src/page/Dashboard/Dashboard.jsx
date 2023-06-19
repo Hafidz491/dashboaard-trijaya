@@ -8,12 +8,12 @@ import "./style.css";
 const Dashboard = () => {
   return (
     <div className="container-dashboard">
-      <div className="navigation">
-        <Sidebar />
-      </div>
+      <Sidebar />
       <div className="body-section">
-        <CardProyek />
-        <BodyDashboard />
+        <div className="main">
+          <CardProyek />
+          <BodyDashboard />
+        </div>
       </div>
     </div>
   );

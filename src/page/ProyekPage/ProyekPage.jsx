@@ -48,17 +48,19 @@ class ProyekPage extends React.Component {
           <Sidebar />
         </div>
         <div className="body-section">
-          <div className="navbar-body">
-            <div className="title-navbar">
-              <h3>Proyek dikerjakan</h3>
+          <div className="main">
+            <div className="navbar-body">
+              <div className="title-navbar">
+                <h3>Proyek dikerjakan</h3>
+              </div>
+              <ProyekSearch
+                keyword={this.state.keyword}
+                keywordChange={this.onKeywordChangeHandler}
+              />
             </div>
-            <ProyekSearch
-              keyword={this.state.keyword}
-              keywordChange={this.onKeywordChangeHandler}
-            />
-          </div>
-          <div className="work-body">
-            <WorkCard />
+            <div className="work-body">
+              <WorkCard />
+            </div>
           </div>
         </div>
       </div>

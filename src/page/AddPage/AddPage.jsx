@@ -7,12 +7,12 @@ import TabelProyekInput from "../../components/TabelProyekInput/TabelProyekInput
 const AddPage = () => {
   return (
     <div className="container-dashboard">
-      <div className="navigation">
-        <Sidebar />
-      </div>
+      <Sidebar />
       <div className="body-section">
-        <ProyekInput />
-        <TabelProyekInput />
+        <div className="main">
+          <ProyekInput />
+          <TabelProyekInput />
+        </div>
       </div>
     </div>
   );

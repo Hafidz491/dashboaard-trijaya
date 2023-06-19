@@ -1,3 +1,16 @@
+.container-sidebar {
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-right: 1px solid grey;
+}
+
+.sidebar {
+  border-right: 1px solid grey;
+}
+
 .top-section {
   margin-bottom: 20px;
 }
