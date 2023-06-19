@@ -144,7 +144,6 @@ class TabelProyekInput extends React.Component {
             </button>
           </div>
         </form>
-        <p>JANCOK</p>
         <br />
         <table className="table-container">
           <thead>
@@ -157,7 +156,6 @@ class TabelProyekInput extends React.Component {
               <th>Aksi</th>
             </tr>
           </thead>
-          <p>JANCOK</p>
           <tbody>
             {tabelBarang.map((item, index) => (
               <tr key={index}>
